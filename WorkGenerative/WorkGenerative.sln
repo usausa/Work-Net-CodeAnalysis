@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkGenerative", "WorkGenerative\WorkGenerative.csproj", "{7550109F-0518-474F-9FC1-A060DC9C3541}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.Reflection.Generative", "Smart.Reflection.Generative\Smart.Reflection.Generative.csproj", "{EF85AEFA-589E-430F-A6F0-37B05CAF91B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.Reflection.Generative.Tests", "Smart.Reflection.Generative.Tests\Smart.Reflection.Generative.Tests.csproj", "{C533F5DF-5E1A-4BB0-9965-E939DCA62452}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.Reflection.Generative.Tools", "Smart.Reflection.Generative.Tools\Smart.Reflection.Generative.Tools.csproj", "{1716B64C-57DF-47D2-950B-C2C082D2E1DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C7EFBD12-F4AE-4EEF-890A-425450F828EB}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reflection", "Reflection", "{B416FACB-44F8-4779-ADEC-AD527901FB52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Net", "Net", "{3E392E95-8773-431C-98A3-CC7CB5563A27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.Net.Generative", "Smart.Net.Generative\Smart.Net.Generative.csproj", "{9434571D-A4A1-4389-A0C9-987191BDAD9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.Net.Generative.Tests", "Smart.Net.Generative.Tests\Smart.Net.Generative.Tests.csproj", "{4475352C-8C0F-4095-9602-1C13DC45AEE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.Net.Generative.Tools", "Smart.Net.Generative.Tools\Smart.Net.Generative.Tools.csproj", "{E1BE635B-D547-4124-A895-B04A7462B68C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7550109F-0518-474F-9FC1-A060DC9C3541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7550109F-0518-474F-9FC1-A060DC9C3541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7550109F-0518-474F-9FC1-A060DC9C3541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7550109F-0518-474F-9FC1-A060DC9C3541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF85AEFA-589E-430F-A6F0-37B05CAF91B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF85AEFA-589E-430F-A6F0-37B05CAF91B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF85AEFA-589E-430F-A6F0-37B05CAF91B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF85AEFA-589E-430F-A6F0-37B05CAF91B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C533F5DF-5E1A-4BB0-9965-E939DCA62452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C533F5DF-5E1A-4BB0-9965-E939DCA62452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C533F5DF-5E1A-4BB0-9965-E939DCA62452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C533F5DF-5E1A-4BB0-9965-E939DCA62452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1716B64C-57DF-47D2-950B-C2C082D2E1DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1716B64C-57DF-47D2-950B-C2C082D2E1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1716B64C-57DF-47D2-950B-C2C082D2E1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1716B64C-57DF-47D2-950B-C2C082D2E1DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9434571D-A4A1-4389-A0C9-987191BDAD9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9434571D-A4A1-4389-A0C9-987191BDAD9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9434571D-A4A1-4389-A0C9-987191BDAD9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9434571D-A4A1-4389-A0C9-987191BDAD9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4475352C-8C0F-4095-9602-1C13DC45AEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4475352C-8C0F-4095-9602-1C13DC45AEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4475352C-8C0F-4095-9602-1C13DC45AEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4475352C-8C0F-4095-9602-1C13DC45AEE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1BE635B-D547-4124-A895-B04A7462B68C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1BE635B-D547-4124-A895-B04A7462B68C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1BE635B-D547-4124-A895-B04A7462B68C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1BE635B-D547-4124-A895-B04A7462B68C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF85AEFA-589E-430F-A6F0-37B05CAF91B4} = {B416FACB-44F8-4779-ADEC-AD527901FB52}
+		{C533F5DF-5E1A-4BB0-9965-E939DCA62452} = {B416FACB-44F8-4779-ADEC-AD527901FB52}
+		{1716B64C-57DF-47D2-950B-C2C082D2E1DE} = {B416FACB-44F8-4779-ADEC-AD527901FB52}
+		{9434571D-A4A1-4389-A0C9-987191BDAD9C} = {3E392E95-8773-431C-98A3-CC7CB5563A27}
+		{4475352C-8C0F-4095-9602-1C13DC45AEE1} = {3E392E95-8773-431C-98A3-CC7CB5563A27}
+		{E1BE635B-D547-4124-A895-B04A7462B68C} = {3E392E95-8773-431C-98A3-CC7CB5563A27}
+	EndGlobalSection
+EndGlobal

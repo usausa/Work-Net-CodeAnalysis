@@ -1,4 +1,4 @@
-﻿namespace WorkGenerative
+﻿namespace Smart.Reflection.Benchmark
 {
     using System;
 

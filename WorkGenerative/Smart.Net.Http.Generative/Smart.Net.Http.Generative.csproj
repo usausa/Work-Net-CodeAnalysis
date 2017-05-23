@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.4</TargetFramework>
     <CodeAnalysisRuleSet>..\Smart.ruleset</CodeAnalysisRuleSet>
+    <RootNamespace>Smart</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,6 +14,10 @@
     <PackageReference Include="System.Net.Http" Version="4.3.2" />
     <PackageReference Include="System.Runtime.Analyzers" Version="1.1.0" />
     <PackageReference Include="System.Runtime.InteropServices.Analyzers" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Net\Http\" />
   </ItemGroup>
 
 </Project>

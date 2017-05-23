@@ -3,6 +3,7 @@
   <PropertyGroup>    
     <TargetFramework>netcoreapp1.1</TargetFramework>
     <CodeAnalysisRuleSet>..\Smart.ruleset</CodeAnalysisRuleSet>
+    <RootNamespace>Smart</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,6 +21,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Smart.Net.Http.Generative\Smart.Net.Http.Generative.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Net\Http\" />
   </ItemGroup>
 
 </Project>

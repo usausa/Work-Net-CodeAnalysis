@@ -3,6 +3,7 @@
   <PropertyGroup>    
     <TargetFramework>netcoreapp1.1</TargetFramework>
     <CodeAnalysisRuleSet>..\Smart.ruleset</CodeAnalysisRuleSet>
+    <RootNamespace>Smart</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,6 +20,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Smart.Reflection.Generative\Smart.Reflection.Generative.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Reflection\" />
   </ItemGroup>
 
 </Project>

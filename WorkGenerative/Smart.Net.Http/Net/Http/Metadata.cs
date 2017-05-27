@@ -1,6 +1,6 @@
 ﻿namespace Smart.Net.Http
 {
-    public class Engine
+    public class Metadata
     {
     }
 }

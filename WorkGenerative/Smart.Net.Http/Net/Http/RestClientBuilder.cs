@@ -1,6 +1,6 @@
 ﻿namespace Smart.Net.Http
 {
-    public interface IResoltProvider
+    public class RestClientBuilder
     {
     }
 }

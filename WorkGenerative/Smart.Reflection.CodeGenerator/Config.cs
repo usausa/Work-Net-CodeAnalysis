@@ -1,4 +1,4 @@
-﻿namespace Smart.Reflection.Generative.Tools
+﻿namespace Smart.Reflection.CodeGenerator
 {
     public class Config
     {

@@ -1,4 +1,4 @@
-﻿namespace Smart.Net.Generative.Tools
+﻿namespace Smart.Net.Http.CodeGenerator
 {
     using System;
 

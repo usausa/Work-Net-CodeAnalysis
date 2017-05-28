@@ -1,4 +1,4 @@
-﻿namespace Smart.Net.Http.Generative.Tools
+﻿namespace Smart.Net.Http.CodeGenerator
 {
     public class Config
     {

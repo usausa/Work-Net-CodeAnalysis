@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace GenerativeFactory
+﻿namespace GenerativeFactory
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SampleDataTest.Test();
         }
     }
 }

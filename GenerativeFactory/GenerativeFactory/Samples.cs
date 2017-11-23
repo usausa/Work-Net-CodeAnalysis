@@ -7,14 +7,14 @@
     using GenerativeFactory.Generators;
     using GenerativeFactory.Library;
 
-    public class SampleDataMetadataRepository : IMetadataRepository
+    public class SampleDataTypeMetadata : ITypeMetadata
     {
         private readonly Dictionary<ConstructorInfo, IActivator> activators = new Dictionary<ConstructorInfo, IActivator>();
 
         private readonly Dictionary<PropertyInfo, IAccessor> accessors = new Dictionary<PropertyInfo, IAccessor>();
 
 
-        public SampleDataMetadataRepository()
+        public SampleDataTypeMetadata()
         {
             var ctor0 = typeof(Data).GetConstructor(Type.EmptyTypes);
             activators[ctor0] = new Activator0(ctor0);
@@ -29,12 +29,12 @@
             accessors[piStringValue] = new StringValueAccessor(piStringValue);
         }
 
-        public IActivator ResolveActivator(ConstructorInfo ci)
+        public IActivator FindActivator(ConstructorInfo ci)
         {
             return activators[ci];
         }
 
-        public IAccessor ResolveAccessor(PropertyInfo pi)
+        public IAccessor FindAccessor(PropertyInfo pi)
         {
             return accessors[pi];
         }

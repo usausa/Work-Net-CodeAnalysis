@@ -2,7 +2,7 @@
 {
     using System.Reflection;
 
-    public interface IGenerativeFactory
+    public interface ITypeMetadataHolder
     {
         IActivator CreateActivator(ConstructorInfo ci);
 

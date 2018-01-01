@@ -4,8 +4,8 @@
 
     public interface ITypeMetadataHolder
     {
-        IActivator CreateActivator(ConstructorInfo ci);
+        IActivator FindActivator(ConstructorInfo ci);
 
-        IAccessor CreateAccseor(PropertyInfo pi);
+        IAccessor FindAccessor(PropertyInfo pi);
     }
 }

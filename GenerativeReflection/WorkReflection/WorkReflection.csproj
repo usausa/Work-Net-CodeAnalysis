@@ -62,7 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Smart.Reflection.Generative\Smart.Reflection.Generative.csproj">
-      <Project>{6e7fd3fd-cef9-4ffc-8a2f-19acf7663d99}</Project>
+      <Project>{f3cf06dd-45ba-4905-a83a-ab55fb497f4b}</Project>
       <Name>Smart.Reflection.Generative</Name>
     </ProjectReference>
   </ItemGroup>

@@ -3,6 +3,7 @@
 
   <PropertyGroup>
     <CoreCompileDependsOn>$(CoreCompileDependsOn);SmartReflectionCodeGenerator;</CoreCompileDependsOn>
+    <CoreCleanDependsOn>$(CoreCleanDependsOn);SmartReflectionClean;</CoreCleanDependsOn>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -21,6 +22,10 @@
     <ItemGroup Condition="Exists('$(IntermediateOutputPath)Smart.Reflection.Generative.g.cs')">
       <Compile Include="$(IntermediateOutputPath)Smart.Reflection.Generative.g.cs" />
     </ItemGroup>
+  </Target>
+
+  <Target Name="SmartReflectionClean">
+    <Delete Files="$(IntermediateOutputPath)Smart.Reflection.Generative.g.cs" />
   </Target>
 
 </Project>

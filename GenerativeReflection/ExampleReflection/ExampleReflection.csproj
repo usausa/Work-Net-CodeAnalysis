@@ -7,7 +7,7 @@
 
   <ItemGroup>
     <PackageReference Include="Usa.Smart.Core" Version="1.1.0" />
-    <PackageReference Include="Usa.Smart.Reflection.Generative" Version="0.0.1" />
+    <PackageReference Include="Usa.Smart.Reflection.Generative" Version="0.0.4" />
   </ItemGroup>
 
 </Project>

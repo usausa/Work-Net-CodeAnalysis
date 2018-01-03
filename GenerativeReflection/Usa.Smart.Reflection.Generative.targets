@@ -11,15 +11,15 @@
 
   <Target Name="SmartReflectionCodeGenerator" BeforeTargets="CoreCompile">
     <PropertyGroup>
-      <SmartReflectionCodeGenerator>dotnet "$(MSBuildThisFileDirectory)..\..\tools\Smart.Reflection.CodeGenerator.dll" "$(IntermediateOutputPath)Smart.Reflection.CodeGenerator.g.cs" "$(MSBuildProjectDirectory)"</SmartReflectionCodeGenerator>
+      <SmartReflectionCodeGenerator>dotnet "$(MSBuildThisFileDirectory)..\..\tools\Smart.Reflection.Generative.CodeGenerator.dll" "$(IntermediateOutputPath)Smart.Reflection.Generative.g.cs" "$(MSBuildProjectDirectory)"</SmartReflectionCodeGenerator>
     </PropertyGroup>
 
     <Exec Command="$(SmartReflectionCodeGenerator)" />
 
     <Message Text="Smart.Reflection.CodeGenerator proccessed" />
 
-    <ItemGroup Condition="Exists('$(IntermediateOutputPath)Smart.Reflection.CodeGenerator.g.cs')">
-      <Compile Include="$(IntermediateOutputPath)Smart.Reflection.CodeGenerator.g.cs" />
+    <ItemGroup Condition="Exists('$(IntermediateOutputPath)Smart.Reflection.Generative.g.cs')">
+      <Compile Include="$(IntermediateOutputPath)Smart.Reflection.Generative.g.cs" />
     </ItemGroup>
   </Target>
 

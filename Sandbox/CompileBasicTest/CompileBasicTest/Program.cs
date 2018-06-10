@@ -1,10 +1,9 @@
-﻿using System.Linq;
-
-namespace CompileBasicTest
+﻿namespace CompileBasicTest
 {
     using System;
     using System.IO;
     using System.Reflection;
+    using System.Linq;
 
     using Microsoft.CodeAnalysis;
     using Microsoft.CodeAnalysis.CSharp;

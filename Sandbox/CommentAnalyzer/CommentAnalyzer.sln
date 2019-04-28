@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.271
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommentAnalyzer", "CommentAnalyzer\CommentAnalyzer\CommentAnalyzer.csproj", "{7A78AD98-605C-472C-8DA7-9EAF2E738707}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommentAnalyzer", "CommentAnalyzer\CommentAnalyzer\CommentAnalyzer.csproj", "{1E7E3D11-AB68-4A04-B882-B331CBD62E70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommentAnalyzer.Test", "CommentAnalyzer\CommentAnalyzer.Test\CommentAnalyzer.Test.csproj", "{CE1F50A2-44DF-43D5-9D26-670754065C6F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommentAnalyzer.Test", "CommentAnalyzer\CommentAnalyzer.Test\CommentAnalyzer.Test.csproj", "{75A95E39-2FAF-4817-BD5F-61ED78721DEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommentAnalyzer.Vsix", "CommentAnalyzer\CommentAnalyzer.Vsix\CommentAnalyzer.Vsix.csproj", "{4B6E9DF0-4D8B-46B8-9640-09EB552E97DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommentAnalyzer.Vsix", "CommentAnalyzer\CommentAnalyzer.Vsix\CommentAnalyzer.Vsix.csproj", "{6299F467-24FC-4FAD-8FD8-9FFCF7407E04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,23 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7A78AD98-605C-472C-8DA7-9EAF2E738707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A78AD98-605C-472C-8DA7-9EAF2E738707}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7A78AD98-605C-472C-8DA7-9EAF2E738707}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7A78AD98-605C-472C-8DA7-9EAF2E738707}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CE1F50A2-44DF-43D5-9D26-670754065C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE1F50A2-44DF-43D5-9D26-670754065C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE1F50A2-44DF-43D5-9D26-670754065C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE1F50A2-44DF-43D5-9D26-670754065C6F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4B6E9DF0-4D8B-46B8-9640-09EB552E97DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4B6E9DF0-4D8B-46B8-9640-09EB552E97DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4B6E9DF0-4D8B-46B8-9640-09EB552E97DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4B6E9DF0-4D8B-46B8-9640-09EB552E97DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E7E3D11-AB68-4A04-B882-B331CBD62E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E7E3D11-AB68-4A04-B882-B331CBD62E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E7E3D11-AB68-4A04-B882-B331CBD62E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E7E3D11-AB68-4A04-B882-B331CBD62E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A95E39-2FAF-4817-BD5F-61ED78721DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A95E39-2FAF-4817-BD5F-61ED78721DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A95E39-2FAF-4817-BD5F-61ED78721DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A95E39-2FAF-4817-BD5F-61ED78721DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6299F467-24FC-4FAD-8FD8-9FFCF7407E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6299F467-24FC-4FAD-8FD8-9FFCF7407E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6299F467-24FC-4FAD-8FD8-9FFCF7407E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6299F467-24FC-4FAD-8FD8-9FFCF7407E04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CD86917E-BA90-4A46-BA4D-FC757D611129}
+		SolutionGuid = {66A9F65E-F4B4-46F9-A23D-8F48ABE4C651}
 	EndGlobalSection
 EndGlobal

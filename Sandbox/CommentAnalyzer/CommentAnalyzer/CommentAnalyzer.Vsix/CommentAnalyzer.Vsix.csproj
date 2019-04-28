@@ -2,12 +2,8 @@
 <!-- Copyright (c)  Microsoft.  All Rights Reserved.  Licensed under the Apache License, Version 2.0.  See License.txt in the project root for license information. -->
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
-    <FileUpgradeFlags>
-    </FileUpgradeFlags>
-    <OldToolsVersion>14.0</OldToolsVersion>
-    <UpgradeBackupLocation />
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -16,7 +12,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectTypeGuids>{82b43b9b-a64c-4715-b499-d71e9ca2bd60};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{4B6E9DF0-4D8B-46B8-9640-09EB552E97DF}</ProjectGuid>
+    <ProjectGuid>{6299F467-24FC-4FAD-8FD8-9FFCF7407E04}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CommentAnalyzer.Vsix</RootNamespace>
@@ -59,7 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CommentAnalyzer\CommentAnalyzer.csproj">
-      <Project>{7A78AD98-605C-472C-8DA7-9EAF2E738707}</Project>
+      <Project>{1E7E3D11-AB68-4A04-B882-B331CBD62E70}</Project>
       <Name>CommentAnalyzer</Name>
     </ProjectReference>
   </ItemGroup>

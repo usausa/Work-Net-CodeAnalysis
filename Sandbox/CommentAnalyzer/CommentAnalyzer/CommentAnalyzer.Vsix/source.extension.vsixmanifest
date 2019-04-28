@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="CommentAnalyzer.08a3b72d-3cd0-46c8-9ca8-0dc94f0cd243" Version="1.0" Language="en-US" Publisher="machi"/>
+    <Identity Id="CommentAnalyzer.f196c8e5-9bf4-4d1b-86c2-98dbf5a73a7d" Version="1.0" Language="en-US" Publisher="machi"/>
     <DisplayName>CommentAnalyzer</DisplayName>
     <Description xml:space="preserve">This is a sample diagnostic extension for the .NET Compiler Platform ("Roslyn").</Description>
   </Metadata>
